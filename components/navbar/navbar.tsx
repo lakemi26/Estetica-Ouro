@@ -6,11 +6,11 @@ import NavItem from "../ui/navItem";
 
 const Navbar = () => {
   return (
-    <div className="h-20 px-4 md:px-8 lg:px-16 xl:32 2xl:px-64 relative">
+    <div className="h-20 px-4 md:px-8 lg:px-16  relative text-begeEscuro dark:text-begeClaro">
       <div className="h-full flex items-center justify-between md:hidden">
         {/* mobile */}
         <Link href={"/"}>
-          <div className="text-2xl tracking-wide text-begeEscuro">
+          <div className="text-2xl tracking-wide  ">
             Estética <br /> Ouro
           </div>
         </Link>
@@ -21,14 +21,14 @@ const Navbar = () => {
         {/* left */}
         <div className="absolute ">
           <Link href={"/"}>
-            <div className="text-2xl tracking-wide text-begeEscuro">
+            <div className="text-2xl tracking-wide ">
               Estética <br /> Ouro
             </div>
           </Link>
         </div>
         {/* right */}
         <div className="m-auto flex items-center justify-between">
-          <div className="text-begeEscuro flex items-center justify-center gap-8 text-xl ">
+          <div className="flex items-center justify-center gap-8 text-xl ">
             <NavItem path="sobre" />
             <NavItem path="serviços" />
             <NavItem path="galeria" />

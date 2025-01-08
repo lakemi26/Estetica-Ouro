@@ -18,7 +18,7 @@ const Menu = () => {
         duration={0.8}
       />
       {isOpen && (
-        <div className="absolute bg-begeClaro text-begeEscuro left-0 top-20 w-full h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-8 text-xl z-10">
+        <div className="absolute bg-begeClaro text-begeEscuro left-0 top-20 w-full h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-8 text-xl z-10 dark:text-begeClaro">
           <Link href="/sobre">Sobre</Link>
           <Link href="/servicos">Serviços</Link>
           <Link href="/galeria">Galeria</Link>
